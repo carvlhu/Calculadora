@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="formato">
+        <h1>Calculadora</h1>
+            <input id="n1" type="number"><input id="n2" type="number">
+            <div id="result"></div>
+        <div class="operacoes">
+            <button onclick="calculo('somar')" class="button-op">+</button>
+            <button onclick="calculo('subtrair')" class="button-op">-</button>
+            <button onclick="calculo('multiplicar')" class="button-op">x</button>
+            <button onclick="calculo('dividir')" class="button-op">/</button>
+        </div>
+    </div>
+    
+    <script src="calc.js" ></script>
+
+</body>
+</html>
